@@ -1,0 +1,13 @@
+{
+  "model_name": "Adaptive Hybrid NGFW",
+  "version": "v1.0",
+  "xgboost_model": "xgb_production_v1.pkl",
+  "isolation_forest_model": "iso_production_v1.pkl",
+  "threshold": 0.7732629,
+  "trained_on": "CICIDS2017 + Adaptive 2018",
+  "roc_auc_unseen_2018": 0.9765,
+  "pr_auc_unseen_2018": 0.9307,
+  "hybrid_enabled": true,
+  "drift_monitoring": "PSI-based",
+  "created_by": "AI_Advanced_NGFW_System"
+}
